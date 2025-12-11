@@ -40,3 +40,15 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Regular.woff");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Bold.woff");
+  font-weight: bold;
+}

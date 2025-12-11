@@ -140,6 +140,10 @@
   gap: 20px;
 }
 
+.list__title {
+  margin-block-end: 20px;
+}
+
 .section__title {
   color: var(--main-color);
   font-size: var(--main-font-size);
@@ -280,6 +284,10 @@
     grid-column: span 2;
   }
 
+  .section__list, .list__title {
+    grid-column: 2;
+  }
+
   .section__pictures {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -356,7 +364,7 @@
     align-self: flex-start;
   }
 
-  .section__list {
+  .list__container {
     grid-column: 2 / 4;
   }
 

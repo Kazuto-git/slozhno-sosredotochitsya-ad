@@ -13,7 +13,6 @@
 
 .page {
   background-color: var(--background-color);
-  padding: 0 10px;
   background-attachment: fixed;
   background-image: var(--background-image);
   background-size: cover;
@@ -26,7 +25,7 @@
   min-block-size: 668px;
   grid-template-rows: minmax(228px, auto) min-content minmax(228px, auto);
   position: relative;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .header__decoration {
@@ -141,7 +140,7 @@
 }
 
 .main {
-  padding: 40px 0;
+  padding: 40px 10px;
   display: grid;
   gap: 50px;
 }
@@ -222,7 +221,7 @@
 .footer {
   display: grid;
   min-height: 667px;
-  padding-bottom: 10px;
+  padding: 0 10px 10px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -241,14 +240,10 @@
     --additional-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .page {
-    padding: 0 20px;
-  }
-
   .header {
   min-block-size: 1024px;
   grid-template-columns: repeat(2, 1fr);
-  padding: 20px 0;
+  padding: 20px 20px;
   }
 
   .header__theme-menu {
@@ -279,7 +274,7 @@
   }
 
   .main {
-    padding: 60px 0;
+    padding: 60px 20px;
     gap: 80px;
   }
 
@@ -328,6 +323,7 @@
 
   .footer {
     min-height: 1024px;
+    padding: 0 20px 20px;
   }
 }
 

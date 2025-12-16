@@ -284,7 +284,7 @@
   }
 
   .section {
-    grid-template-columns: minmax(min-content, 236px) minmax(472px, auto);
+    grid-template-columns: minmax(236px, auto) minmax(472px, auto);
   }
 
   .section__why-so-hard .section__article {

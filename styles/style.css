@@ -12,7 +12,6 @@
 }
 
 .page {
-  margin: 0 auto;
   background-color: var(--background-color);
   padding: 0 10px;
   background-attachment: fixed;

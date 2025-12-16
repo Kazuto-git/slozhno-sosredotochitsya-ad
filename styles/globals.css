@@ -1,16 +1,4 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Regular.woff");
-  font-weight: regular;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Bold.woff");
-  font-weight: bold;
-}
-
 *,
 *::before,
 *::after {
@@ -20,7 +8,6 @@
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
   margin: 0;
   padding: 0;
 }

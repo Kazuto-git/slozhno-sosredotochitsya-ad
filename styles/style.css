@@ -251,9 +251,8 @@
   }
 
   .header__title {
-    justify-self: start;
+    justify-self: center;
     grid-column: span 2;
-    transform: translateX(-20px);
   }
 
   .header__description {

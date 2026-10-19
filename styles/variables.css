@@ -10,7 +10,7 @@
   --paragraph-text-color: rgba(241, 178, 206, 1);
   --button-hover: rgba(255, 0, 112, 0.4);
   --link-hover:rgba(241, 178, 206, 1);
-  --background-image: url("/images/cover-image-dark.png");
+  --background-image: url("../images/cover-image-dark.png");
   --main-font: "IBM Plex Mono";
   --main-font-size: 18px;
   --additional-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

@@ -11,7 +11,7 @@
   --paragraph-text-color: rgba(53, 52, 48, 1);
   --button-hover: rgba(50, 49, 45, 0.4);
   --link-hover:rgba(53, 52, 48, 1);
-  --background-image: url("/images/cover-image-light.png");
+  --background-image: url("../images/cover-image-light.png");
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,7 +22,7 @@
   --paragraph-text-color: rgba(53, 52, 48, 1);
   --button-hover: rgba(50, 49, 45, 0.4);
   --link-hover:rgba(53, 52, 48, 1);
-  --background-image: url("/images/cover-image-light.png");
+  --background-image: url("../images/cover-image-light.png");
   }
 }
 
